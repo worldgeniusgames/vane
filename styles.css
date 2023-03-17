@@ -1,0 +1,59 @@
+.images {
+    border-radius: 8px;
+    margin: 1%;
+    width: 200px;
+}
+
+.track_1 {
+    padding: 2%;
+    border-radius: 8px;
+    background-color: rgb(241, 241, 241);
+    margin: 3%;
+    text-align: center;
+    font-family: 'Mariupol-Regular';
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 1.4;
+
+}
+
+@font-face {
+
+    font-family: "Mariupol-Regular"; 
+    src: url("Mariupol-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face {
+
+     font-family: "Mariupol-Bold"; 
+     src: url("Mariupol-Bold.ttf") format("truetype"); 
+     font-style: normal; 
+      font-weight: normal; 
+      } 
+    
+
+    .main {
+    margin: 1%;
+    width: 70%;
+    text-align: center;
+}
+
+.buttonClass {
+    font-size:13px;
+    font-family:Mariupol-Bold;
+    width:129px;
+    height:34px;
+    border-width:0px;
+    color:#fff;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    border-bottom-left-radius:8px;
+    border-bottom-right-radius:8px;
+    background:#000000;
+    margin-top: 4%;
+  }
+
+  .buttonClass:hover {
+    background-color: rgb(58, 58, 58);}
