@@ -1,89 +1,173 @@
 .images {
-    border-radius: 8px;
-    margin: 1%;
-    width: 200px;
+  border-radius: 8px;
+  margin: 1%;
+  width: 170px;
 }
 
 .track_1 {
-    padding: 2%;
-    border-radius: 8px;
-    background-color: rgb(241, 241, 241);
-    margin: 6%;
-    text-align: center;
-    font-family: 'Mariupol-Regular';
-    line-height: 1.4;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-size: 10%;
+  padding: 2%;
+  border-radius: 8px;
+  background-color: rgb(241, 241, 241);
+  margin: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-family: "Mariupol-Regular";
+  line-height: 1.4;
+  padding-left: 7%;
+  padding-right: 7%;
+  background-size: 10%;
+}
 
+.track_2 {
+
+    padding: 2%;
+      border-radius: 8px;
+      background-color: rgb(241, 241, 241);
+      margin: 2%;
+      margin-left: 25%;
+      margin-right: 25%;
+      text-align: center;
+      font-family: "Mariupol-Regular";
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: -5%;
+      padding-bottom: -5%;
+      background-size: 10%;
+}
+
+.mini {
+  line-height: 1px;
 }
 
 @font-face {
-
-    font-family: "Mariupol-Regular"; 
-    src: url("Mariupol-Regular.ttf") format("truetype"); 
-    font-style: normal; 
-    font-weight: normal; 
-    } 
+  font-family: "Mariupol-Regular";
+  src: url("Mariupol-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
 @font-face {
+  font-family: "Mariupol-Bold";
+  src: url("Mariupol-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
 
-     font-family: "Mariupol-Bold"; 
-     src: url("Mariupol-Bold.ttf") format("truetype"); 
-     font-style: normal; 
-      font-weight: normal; 
-      } 
-    
-
-    .main {
-    margin: 1%;
-    width: 70%;
-    text-align: center;
+.main {
+  margin: 1%;
+  width: 70%;
+  text-align: center;
 }
 
 .buttonClass {
-    font-size:13px;
-    font-family:Mariupol-Bold;
-    width:129px;
-    height:34px;
-    border-width:0px;
-    color:#fff;
-    border-top-left-radius:8px;
-    border-top-right-radius:8px;
-    border-bottom-left-radius:8px;
-    border-bottom-right-radius:8px;
-    background:#000000;
-    margin-top: 4%;
-  }
+  font-size: 13px;
+  font-family: Mariupol-Bold;
+  width: 129px;
+  height: 34px;
+  border-width: 0px;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #000000;
+  margin-top: 4%;
+}
 
-  .buttonClass:hover {
-    background-color: rgb(58, 58, 58);}
+.buttonClass:hover {
+  background-color: rgb(58, 58, 58);
+}
 
-    .buttonClass {
-        overflow: hidden;
-        transition: all 300ms ease;
-      }
-      
-      .buttonClass h4 {
-        color: #111;
-      }
-      
-      .buttonClass:after {
-        width: 300%;
-        height: 300%;
-        left: -300%;
-        transform: rotate(45deg);
-        background-color: #f21170;
-        transition: all 300ms ease;
-      }
-      
-      .buttonClass:hover h4 {
-        color: #fff;
-        z-index: 10;
-        font-weight: 600;
-      }
-      
-      .buttonClass:hover::after {
-        left: -100%;
-      }
-      
+.buttonClass {
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.buttonClass h4 {
+  color: #111;
+}
+
+.buttonClass:after {
+  width: 300%;
+  height: 300%;
+  left: -300%;
+  transform: rotate(45deg);
+  background-color: #f21170;
+  transition: all 300ms ease;
+}
+
+.buttonClass:hover h4 {
+  color: #fff;
+  z-index: 10;
+  font-weight: 600;
+}
+
+.buttonClass:hover::after {
+  left: -100%;
+}
+
+.nav {
+  padding: 2%;
+  border-radius: 8px;
+  background-color: rgb(241, 241, 241);
+  margin: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  font-family: "Mariupol-Regular";
+  line-height: 1.4;
+  padding-left: 7%;
+  padding-right: 7%;
+  background-size: 10%;
+}
+
+.buttonNav {
+  font-size: 15px;
+  font-family: Mariupol-Bold;
+  width: 129px;
+  height: 34px;
+  border-width: 0px;
+  color: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #000000;
+}
+
+.buttonNav:hover {
+  background-color: rgb(58, 58, 58);
+}
+
+.buttonNavs {
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.buttonNav h4 {
+  color: #111;
+}
+
+.buttonNav:after {
+  width: 300%;
+  height: 300%;
+  left: -300%;
+  transform: rotate(45deg);
+  background-color: #f21170;
+  transition: all 300ms ease;
+}
+
+.buttonNav:hover h4 {
+  color: #fff;
+  z-index: 10;
+  font-weight: 600;
+}
+
+.buttonNav:hover::after {
+  left: -100%;
+}
+
+.active {
+  background-color: rgb(182, 0, 0);
+}
